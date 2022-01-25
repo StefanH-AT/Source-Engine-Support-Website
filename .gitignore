@@ -1,0 +1,9 @@
+
+# Dependencies
+node_modules
+
+# Jetbrains IDE cache and settings
+.idea
+
+# Distribution
+dist
