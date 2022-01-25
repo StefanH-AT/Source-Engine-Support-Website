@@ -5,5 +5,8 @@ node_modules
 # Jetbrains IDE cache and settings
 .idea
 
+# Visual Studio (code) cache and settings
+.vs
+
 # Distribution
 dist
