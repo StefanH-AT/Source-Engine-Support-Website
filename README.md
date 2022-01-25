@@ -1,7 +1,29 @@
-# Vue 3 + Vite
+# Source Engine Support Website
+Website for the [Source Engine Support Visual Studio Code Extension](https://github.com/StefanH-AT/Source-Engine-VSCode-Extension)
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Development
 
-## Recommended IDE Setup
+### IDEs
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+Any text editor can be used to develop. Recommended are [Jetbrains Webstorm](https://www.jetbrains.com/webstorm/) or [Visual Studio Code](https://code.visualstudio.com/).
+
+### Installation
+
+- Install [NodeJs](https://nodejs.org/en/download/)
+- Clone repository `git clone https://github.com/StefanH-AT/Source-Engine-Support-Website.git`
+- Run `npm install`
+- Run `npm run dev`
+
+## Deployment
+
+### Installation
+
+- Install [NodeJs](https://nodejs.org/en/download/)
+- Clone repository `git clone https://github.com/StefanH-AT/Source-Engine-Support-Website.git`
+- Run `npm ci`
+- Run `npm run build`
+- Static files are located in the `dist` folder. Can be hosted anywhere.
+
+## License
+
+This project is licensed under the GNU Public License version 3: [License](LICENSE)
