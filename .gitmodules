@@ -1,0 +1,3 @@
+[submodule "src/scss/readycss"]
+	path = src/scss/readycss
+	url = https://github.com/StefanH-AT/ReadyCss.git
