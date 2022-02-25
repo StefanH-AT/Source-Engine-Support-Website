@@ -1,0 +1,29 @@
+
+:root {
+  --font-family-normal: "IBM Plex Sans", sans-serif;
+  --font-family-heading: "Staatliches", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-heading);
+  color: var(--heading-color);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Staatliches";
+  src: url("/fonts/staatliches/Staatliches-Regular.tff");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IBM Plex Sans";
+  src: url("/fonts/staatliches/IBMPlexSans-Regular.tff");
+  font-style: normal;
+}
+@font-face {
+  font-family: "IBM Plex Sans";
+  src: url("/fonts/staatliches/IBMPlexSans-Bold.tff");
+  font-style: normal;
+  font-weight: bold;
+}

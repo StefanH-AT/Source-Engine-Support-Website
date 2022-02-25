@@ -59,6 +59,7 @@ export default {
              preload/>
       </div>
     </div>
+    <!--
     <article class="section-container">
 
       <div class="features">
@@ -119,7 +120,7 @@ export default {
         </div>
 
       </div>
-    </article>
+    </article>-->
   </main>
 </template>
 
@@ -137,6 +138,8 @@ export default {
   margin-top: 2rem;
   background-color: var(--color-main);
   box-shadow: 0 0.25rem 1.75rem var(--scheme-shade-9);
+
+  --btn-outline-text-color: var(--scheme-background);
 
   & *::selection {
     background: var(--scheme-background);
@@ -163,6 +166,7 @@ export default {
 
 .banner-description {
   margin-block: 2rem;
+  font-weight: bold;
   > p {
     margin-bottom: 0;
   }
