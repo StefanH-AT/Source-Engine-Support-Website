@@ -72,9 +72,26 @@ export default {
         <div class="feature">
           <h3>VMT Files</h3>
           <h4>Shader parameter autocompletion</h4>
-          <h4>Hover inspection</h4>
+          <div class="feature-listing">
+            <div class="feature-listing-img">
+              <img src="img/vmt_hover.png" alt="Hover inspection"/>
+            </div>
+            <div class="feature-listing-description">
+              <h4>Hover inspection</h4>
+              <p>Get help and further information about shader parameters.</p>
+            </div>
+          </div>
           <h4>Color Preview</h4>
-          <h4>Detect repeating parameters</h4>
+          <div class="feature-listing">
+            <div class="feature-listing-img">
+              <img src="img/vmt_duplicate.png" alt="Detect duplicate parameters"/>
+            </div>
+            <div class="feature-listing-description">
+              <h4>Detect repeating parameters</h4>
+              <p>Duplicate keys are detected and pointed out to avoid overriding issues</p>
+            </div>
+          </div>
+
         </div>
 
         <div class="feature">
@@ -198,7 +215,7 @@ export default {
 .feature {
   margin-block: 3rem;
 
-  > h3 {
+  h3 {
     font-size: 2.4em;
     background: var(--color-main);
     padding: 0.5rem;
@@ -210,10 +227,30 @@ export default {
       color: var(--color-main);
     }
   }
-  > h4 {
-    font-weight: bold;
-    margin-top: 1.5rem;
-    font-family: var(--font-family-normal);
+  h4 {
+    font-size: 1.75em;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.feature-listing {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+
+  padding-block: 0.5rem;
+
+  margin-top: 1.5rem;
+
+  > .feature-listing-img {
+    flex-basis: 30rem;
+    > img {
+      width: 100%;
+    }
+  }
+
+  > .feature-listing-description {
+
   }
 }
 </style>
