@@ -53,7 +53,7 @@ export default {
       </header>
 
       <div class="showcase">
-        <img src="img/vmt_sample1.png"
+        <img src="/img/vmt_sample1.png"
              alt="Screenshot of Source Engine Support extension"
              class="showcase-img"
              preload/>
