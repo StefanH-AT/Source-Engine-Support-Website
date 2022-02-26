@@ -131,8 +131,7 @@ export default {
 }
 .section-container {
   max-width: min(92%, 60rem);
-  margin-left: auto;
-  margin-right: auto;
+  margin-inline: auto;
 }
 .banner {
   margin-top: 2rem;
