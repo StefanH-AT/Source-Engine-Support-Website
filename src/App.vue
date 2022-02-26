@@ -155,7 +155,7 @@ export default {
   }
 
   h1 {
-    line-height: 0.2;
+    line-height: 0.5;
     margin: 0;
     font-size: min(8vw, 5rem);
     small {
